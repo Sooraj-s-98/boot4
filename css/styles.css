@@ -22,8 +22,13 @@
     color:floralwhite;
 }
 
-address{
+.address{
     font-size:80%;
     margin:0px;
     color:#0f0f0f;
 }
+.widgets {
+    display: flex;
+    justify-content: space-around;
+}
+.d-{breakpoint}-{sm}
