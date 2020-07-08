@@ -42,6 +42,13 @@
                 <div class="col-12 col-sm align-self-center">
                     <img src="img/logo.png" class="img-fluid">
                 </div>
+                
+                    <div class="col-12 col-sm align-self-center">
+                        <div class=" col-md-10">
+                            <button type="button" class="btn btn-warning" onClick="document.getElementById('Reserve').scrollIntoView();">Reserve a Tabble</button>
+                        </div>
+                     </div>
+                
             </div>
         </div>
     </header>
@@ -80,7 +87,7 @@
         </div>
 
         <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4  order-sm-last col-md-3">
+            <div class="col-8 col-sm-3  order-sm-last col-md-3">
                 <h3>Meet our Culinary Specialists</h3>
             </div>
             <div class="media">
@@ -96,19 +103,45 @@
                         </p>
                 </div>
             </div>
-            <div class="col-12 col-md-9">
-                <div class="card">
-                    <h3 class="card-header bg-primary text-white">Reserve a Tabble</h3>
-                </div>
-            </div>
+        </div>
+            <div class="row row-content align-items-center" id="Reserve">
+                <div class="card col-8 offset-1 col-md-9" >
+                    <h3 class="card-header bg-warning text-white col-12 ">Reserve a Tabble</h3>
                 <form>
                     <div class="form-group row">
-                        <label for="telnum" class="col-12 col-md-2 col-form-label">Date and time</label>
+                    <label for="date" class="col-12 col-md-2 col-form-label">Number of Guests</label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">1</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">2</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" >
+                        <label class="form-check-label" for="inlineRadio3">3</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option4">
+                        <label class="form-check-label" for="inlineRadio1">4</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option5">
+                        <label class="form-check-label" for="inlineRadio2">5</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option6">
+                        <label class="form-check-label" for="inlineRadio3">6</label>
+                      </div>
+                    </div>
+                   <div class="form-group row">
+                        <label for="date" class="col-12 col-md-2 col-form-label">Date and Time</label>
                         <div class="col-5 col-md-3">
-                            <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">
+                            <input type="tel" class="form-control" id="date" name="date" placeholder="date">
                         </div>
-                        <div class="col-7 col-md-7">
-                            <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
+                        <div class="col-7 col-md-3">
+                            <input type="tel" class="form-control" id="date" name="time" placeholder="time">
                         </div>
                     </div>
                     <div class="form-group row">
@@ -117,8 +150,9 @@
                         </div>
                     </div>
                 </form>
-
             </div>
+            </div>
+            
         </div>
     </div>
 
