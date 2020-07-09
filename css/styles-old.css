@@ -60,3 +60,6 @@
     bottom: 0px;
     z-index: 1;
 }
+.modal-content{
+    background:#512DA8;
+  }

@@ -55,3 +55,15 @@ body {
   bottom: 0px;
   z-index: 1;
 }
+.modal-content{
+  background:#bca2eb;
+}
+.modal-title{
+  padding: 10px;
+  background:#4906e7;
+}
+.modal-header{
+  padding: 0px;
+  background:#4906e7;
+}
+
