@@ -148,7 +148,7 @@
                 </div>
                 <div class="col-12 col-sm-3 align-self-center">
                     <!-- data-toggle="modal" data-target="#modalreserve" -->
-                          <a id="rbutton"class="btn btn-lg btn-warning btn-block" href="#form" data-html="true" title="or call us at 123455" data-placement="bottom">Reserve Table</a>
+                          <a id="rbutton"class="btn btn-lg btn-warning btn-block text-white" href="#form" data-html="true" title="or call us at 123455" data-placement="bottom">Reserve Table</a>
                         </div>    
             </div>
         </div>
@@ -267,42 +267,7 @@
    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-   <script>
-        $(document).ready(function(){
-            $("#mycarousel").carousel( { interval: 2000 } );
-            $("#carouselButton").click(function(){
-                if ($("#carouselButton").children("span").hasClass('fa-pause')) {
-                    $("#mycarousel").carousel('pause');
-                    $("#carouselButton").children("span").removeClass('fa-pause');
-                    $("#carouselButton").children("span").addClass('fa-play');
-                }
-                else if ($("#carouselButton").children("span").hasClass('fa-play')){
-                    $("#mycarousel").carousel('cycle');
-                    $("#carouselButton").children("span").removeClass('fa-play');
-                    $("#carouselButton").children("span").addClass('fa-pause');                    
-                }
-            });
-        });
-    </script>
-    <script>
-        $(document).ready(function(){
-          $('#rbutton').click(function(){
-          $('#modalreserve').modal();
-          });
-        });
-       </script>
-       <script>
-        $(document).ready(function(){
-          $('#lbutton').click(function(){
-          $('#loginmodal').modal();
-          });
-        });
-       </script>
-       <!-- <script>
-         $(document).raedy(function(){
-           $('[data-toggle="tooltip"]').tooltip();
-         });
-       </script> -->
+   <script src="js/scripts.js"></script>
 </body>
 
 </html>
